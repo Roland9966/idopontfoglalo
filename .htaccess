@@ -1,0 +1,6 @@
+Options -Indexes
+
+<FilesMatch "(^\.env|\.(sql|md|log|bat)$)">
+    Require all denied
+</FilesMatch>
+

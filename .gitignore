@@ -1,0 +1,5 @@
+/.env
+/storage/*.log
+/storage/backups/*.sql
+/.vscode/
+
