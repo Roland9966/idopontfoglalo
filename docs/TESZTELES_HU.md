@@ -40,7 +40,7 @@ A lenti táblázatot csak a saját XAMPP-környezetben végrehajtott próbák ut
 | T-34 | Adminisztrátori szolgáltatáskezelés | Új szolgáltatás létrejön és inaktiválható; egy meglévő szolgáltatás adatai módosíthatók | Sikerüzenet, aktív és inaktív állapot, valamint módosított szolgáltatás képernyőképe |
 | T-35 | Adminisztrátori jogosultság és hozzárendelés | Foglalóból időpontgazda alakítható, majd szolgáltatás rendelhető hozzá; a hozzárendelés eltávolítható és az eredeti szerepkör visszaállítható | Sikerüzenetek, felhasználólista előtte és utána |
 
-## Rögzített eredmények – 2026. szeptember 14–15.
+## Rögzített eredmények – 2026. szeptember 14–16.
 
 A következő próbákat Windows–XAMPP környezetben hajtották végre. A képernyőképek elkészültek; a diplomamunkába helyezés előtt a személyes adatokat és a tokeneket ki kell takarni.
 
@@ -50,7 +50,7 @@ A következő próbákat Windows–XAMPP környezetben hajtották végre. A kép
 | T-02 | A rendszer a hibás jelszóval végzett belépést megtagadta, és általános hibaüzenetet jelenített meg. | PASS | Bejelentkezési hibaüzenet képernyőképe |
 | T-03 | Öt hibás jelszópróba után a fiók 15 perces ideiglenes zárolásba került; a következő belépési próbát a rendszer zárolási üzenettel utasította el. | PASS | Zárolási hibaüzenet képernyőképe |
 | T-04 | Az aktív szolgáltatáshoz tartozó időpont megjelent a foglalói nézetben. | PASS | Szabad időpontok képernyőképe |
-| T-05 | A megerősített foglalás idején az időpont nem volt másik felhasználó számára választható; lemondás után ismét megjelent. A zárolt időablak kizárását a T-13 külön igazolta. A 2026. szeptember 14-re szűrt foglalói listában nem volt időpont, de az adminisztrátori képen az aznapi időablakok foglaltak voltak, ezért a múltbeli, de szabad időablak kizárását ez a próba nem bizonyítja külön. | RÉSZBEN IGAZOLT | Foglalás előtti és lemondás utáni, valamint múltbeli dátumra szűrt foglalói és adminisztrátori képernyőkép |
+| T-05 | A megerősített foglalás idején az időpont nem volt másik felhasználó számára választható; lemondás után ismét megjelent. A zárolt időablak kizárását a T-13 külön igazolta. Kiegészítő próba (2026. szeptember 16.): az időpontgazda létrehozott egy szabad időablakot (2026. 09. 16. 02:35–03:00, Tanári konzultáció, Minta Tanár). Kezdés előtt megjelent a foglalói „Szabad időpontok” listában; a kezdési időpont után ugyanazzal a szűréssel már nem szerepelt. A kezdés előtt megnyitott megerősítő oldalról indított véglegesítést a szerver „Múltbeli időpont nem foglalható.” üzenettel elutasította, foglalás nem jött létre, az időablak az időpontgazdai nézetben „Szabad” állapotú maradt. | PASS | Foglalás előtti és lemondás utáni képernyőkép; a kiegészítő próba négy képernyőképe (szabad lista a kezdés előtt és után, elutasító hibaüzenet, időpontgazdai nézet) |
 | T-06 | A megerősítő oldal helyes adatokat mutatott, majd létrejött a #7 azonosítójú megerősített foglalás. | PASS | Megerősítő oldal és sikerüzenet képernyőképe |
 | T-07 | A 0.1.7-es teljes tesztfuttatás 10 sikeres és 0 hibás tesztet jelzett; a konkurens foglalásnál csak egy aktív foglalás jött létre. | PASS | Parancssori kimenet és képernyőkép |
 | T-08 | A második foglalói fiók „Saját foglalásaim” oldalán nem jelent meg az első felhasználó korábban létrehozott foglalása. | PASS | A második felhasználó üres foglaláslistájának képernyőképe |

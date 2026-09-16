@@ -8,7 +8,7 @@ Az „elkészült” megjelölés a forráskódban szereplő megoldást jelenti.
 |---|---|---|---|
 | FR-01 | Elkészült, igazolt | Kötelező, egyedi és pontosan 8 számjegyű indexszámmal végzett hallgatói regisztráció, e-mailes fiókaktiválás, belépés, kilépés, munkamenet és belépési korlátozás | T-01–T-03, T-21–T-27 sikeres; az üres és 7 jegyű mezőt a böngésző, a duplikált indexszámot a szerver utasította el, a szerveroldali formátumfüggvény automatikus tesztje sikeres. A böngészőellenőrzést megkerülő külön HTTP-próba még elvégezhető. |
 | FR-02 | Elkészült, igazolt | Csak aktív szolgáltatások jelennek meg a foglalói nézetben | T-04 sikeres, 2026. szeptember 14. |
-| FR-03 | Elkészült, részben igazolt | Dátum- és szolgáltatásszűrés, múltbeli/foglalt/zárolt időpontok kizárása | T-05 foglalt időpontot és T-13 zárolt időpontot kizáró része sikeres. A múltbeli időpontot a kód szerveroldalon kizárja, de a bemutatott régi időablakok mind foglaltak voltak, ezért külön, szabad múltbeli időablakkal végzett kézi próba még nincs. |
+| FR-03 | Elkészült, igazolt | Dátum- és szolgáltatásszűrés, múltbeli/foglalt/zárolt időpontok kizárása | T-05 és T-13 sikeres; a szabad, de már elkezdődött időablak kizárását a 2026. szeptember 16-i kiegészítő próba igazolta (a listából eltűnt, a véglegesítést a szerver elutasította). |
 | FR-04 | Elkészült, igazolt | Megerősítő oldal, tranzakciós mentés, foglalási azonosító | T-06 sikeres, 2026. szeptember 14. |
 | FR-05 | Elkészült, igazolt | Sorzárolás és egyedi generáltoszlop-megszorítás | T-07 sikeres, 2026. szeptember 14. |
 | FR-06 | Elkészült, igazolt | Felhasználóazonosítóval szűrt saját foglalások | T-08 sikeres, 2026. szeptember 15. |
